@@ -1,10 +1,23 @@
-import {HeaderBody} from "./HeaderStyles.js"
 
 export const Header = ()=>{
     return(
-        <HeaderBody>
-            Header
-        </HeaderBody>
+        <>
+        <div className="Header">
+            Gallery
+        </div>
+
+
+        <style>
+            {`
+                .Header{
+                    width:100vw;
+                    height:5rem;
+                }
+            `}
+        </style>
+        </>
+
+
     )
 }
 

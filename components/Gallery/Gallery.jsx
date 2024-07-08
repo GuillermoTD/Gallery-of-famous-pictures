@@ -15,7 +15,7 @@ const Gallery = () => {
       <div className='gallery__cell'>cel
         <div className="gallery__cell-img"></div>
       </div>
-      
+
     </div>
     <style>
       {`
@@ -24,7 +24,7 @@ const Gallery = () => {
           grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
           gap: 10px;
           background:blue;
-          min-height:90.5vh;
+          min-height:96vh;
         }
 
         .gallery__cell {
